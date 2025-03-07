@@ -4,7 +4,27 @@
 
 body {
   margin: 0;
+  background-color: black;
   /* display: flex;
   place-items: center; */
   min-width: 320px;
+}
+
+.navbar-choices {
+  color: hsl(233, 8%, 62%);
+}
+
+.navbar-botton {
+  background: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+
+}
+
+.navbar-choices li {
+  border-bottom: 3px solid transparent;
+  cursor: pointer;
+}
+
+.navbar-choices li:hover {
+  border-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%)) 1;
+
 }
