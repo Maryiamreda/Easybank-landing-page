@@ -12,6 +12,7 @@ body {
 
 .navbar-choices {
   color: hsl(233, 8%, 62%);
+  padding-top: 10px;
 }
 
 .navbar-botton {
@@ -22,9 +23,19 @@ body {
 .navbar-choices li {
   border-bottom: 3px solid transparent;
   cursor: pointer;
+  display: inline;
+  padding-bottom: 29px;
+  margin-left: 20px;
 }
 
 .navbar-choices li:hover {
   border-image: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%)) 1;
 
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 110px 15px 110px;
+  background-color: white;
 }
