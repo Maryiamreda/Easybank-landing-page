@@ -12,7 +12,6 @@ body {
 
 .navbar-choices {
   color: hsl(233, 8%, 62%);
-  padding-top: 10px;
 }
 
 .navbar-botton {
@@ -39,3 +38,16 @@ body {
   padding: 20px 110px 15px 110px;
   background-color: white;
 }
+
+/* 
+@media only screen and (max-width: 870px) {
+  .navbar-choices {
+    display: none;
+  }
+} */
+/* 
+@media only screen and (max-width: 580px) {
+  .navbar-botton {
+    display: none;
+  }
+} */
