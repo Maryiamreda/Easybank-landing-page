@@ -4,7 +4,6 @@
 
 body {
   margin: 0;
-  background-color: black;
   /* display: flex;
   place-items: center; */
   min-width: 320px;
@@ -39,15 +38,15 @@ body {
   background-color: white;
 }
 
-/* 
-@media only screen and (max-width: 870px) {
-  .navbar-choices {
-    display: none;
+.topheader {
+  background-color: hsl(0, 0%, 98%);
+
+  h1 {
+    color: hsl(233, 26%, 24%);
   }
-} */
-/* 
-@media only screen and (max-width: 580px) {
-  .navbar-botton {
-    display: none;
-  }
-} */
+}
+
+.clip-path-right {
+  clip-path: inset(0 20% 0 0);
+  /* Adjust the 40% value as needed */
+}

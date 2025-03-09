@@ -2,7 +2,7 @@ import { TfiAlignJustify } from "react-icons/tfi";
 
 const Navbar = () => {
     return (
-        <div className="w-full  px-10 lg:px-28 py-5 flex  justify-between items-center bg-white">
+        <div className="w-full  px-10 lg:px-28 py-5 flex relative z-10  justify-between items-center bg-white">
             <div className="flex items-center ">
                 <img src="/images/logo.svg" className="w-35 h-6 " />
             </div>
