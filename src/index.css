@@ -44,9 +44,12 @@ body {
   h1 {
     color: hsl(233, 26%, 24%);
   }
+
+  p {
+    color: hsl(233, 8%, 62%);
+  }
 }
 
-.clip-path-right {
+/* .clip-path-right {
   clip-path: inset(0 20% 0 0);
-  /* Adjust the 40% value as needed */
-}
+} */
