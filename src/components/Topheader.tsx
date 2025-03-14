@@ -1,7 +1,7 @@
 
 const Topheader = () => {
     return (
-        <div className="topheader  pl-10 lg:pl-28  flex  md:overflow-hidden md:h-89 flex-col-reverse md:flex-row ">
+        <div className="topheader  pl-10 lg:pl-28   flex flex-col-reverse  md:overflow-hidden md:h-110  md:flex-row ">
             <div className="flex flex-col gap-5 justify-center  ">
                 <h1 className="text-3xl font-semibold">  Next generation <br /> digital banking
                 </h1>
@@ -11,15 +11,15 @@ const Topheader = () => {
                 <div className="navbar-botton hidden  md:block  text-white w-34 text-center   py-3 rounded-3xl text-sm font-medium cursor-pointer hover:opacity-70">Request Invite</div>
 
             </div>
-            <div className="md:relative rotate-10 ">
-                <img src='/images/bg-intro-desktop.svg' className=" absolute -top-60 lg:-top-70 left-25  max-w-450 w-250 lg:w-500 h-200  " />
+            <div className=" relative   ">
+                <img src='/images/bg-intro-desktop.svg' className=" 
+                md:absolute 
+                 md:-top-60 lg:-top-55 md:left-50 
+                  md:max-w-450  md:w-250 h-200
+                  " />
 
             </div>
 
-
-            {/* <div className="  w-[500px] absolute -right-40 -top-15  ">
-                    <img src='/images/image-mockups.png' className="clip-path-right" />
-                </div> */}
 
         </div>
     );
