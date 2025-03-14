@@ -11,11 +11,11 @@ const Topheader = () => {
                 <div className="navbar-botton hidden  md:block  text-white w-34 text-center   py-3 rounded-3xl text-sm font-medium cursor-pointer hover:opacity-70">Request Invite</div>
 
             </div>
-            <div className=" relative   ">
+            <div className=" w-160  ">
                 <img src='/images/bg-intro-desktop.svg' className=" 
-                md:absolute 
-                 md:-top-60 lg:-top-55 md:left-50 
-                  md:max-w-450  md:w-250 h-200
+                  relative   md:absolute 
+                 md:-top-60 lg:-top-55 md:left-50 -left-30 -top-45
+                  md:max-w-450  md:w-250 md:h-200 
                   " />
 
             </div>
