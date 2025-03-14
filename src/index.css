@@ -1,6 +1,10 @@
 @import "tailwindcss";
 
-:root {}
+
+h1,
+h2 {
+  color: hsl(233, 26%, 24%);
+}
 
 body {
   margin: 0;
@@ -41,15 +45,15 @@ body {
 .topheader {
   background-color: hsl(0, 0%, 98%);
 
-  h1 {
-    color: hsl(233, 26%, 24%);
-  }
-
   p {
     color: hsl(233, 8%, 62%);
   }
 }
 
-/* .clip-path-right {
-  clip-path: inset(0 20% 0 0);
-} */
+.thirdsection {
+  background-color: hsl(220, 16%, 96%);
+
+  p {
+    color: hsl(233, 8%, 62%);
+  }
+}
